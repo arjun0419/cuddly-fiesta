@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d -w",
-    "start": "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "db": "psql postgres -f 'ochex.sql && node db/dbSeedFunc.js" 
   },
   "repository": {
     "type": "git",
