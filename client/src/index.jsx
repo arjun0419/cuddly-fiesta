@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import App from './App';
+import Checkbooks from './Checkbooks';
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <Checkbooks />,
   document.getElementById('root'),
 );
-

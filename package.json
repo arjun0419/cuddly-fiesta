@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d -w",
     "start": "nodemon server/server.js",
-    "db": "psql postgres -f 'ochex.sql && node db/dbSeedFunc.js" 
+    "db": "psql postgres -f 'ochex.sql && node db/dbSeedFunc.js"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,12 @@
     "webpack": "^3.11.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.2",
     "pg": "^7.4.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "reactjs-popup": "^1.0.5"
   }
 }

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1449247666642-264389f5f5b1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9b356ab939c00d2d4f3fb8ee27df53ba&auto=format&fit=crop&w=1049&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+    /*height: 100%; */
+}
+
+.heroButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heroButtons button{
+  display: flex;
+  padding: 10px 24px;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.welcome h1{
+  color: white;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.welcome h4{
+  color: white;
+}
