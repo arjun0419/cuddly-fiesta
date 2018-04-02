@@ -2,9 +2,9 @@ import React from 'react';
 import Checks from './Checks';
 import AddCheck from './Addcheck';
 
-const Checkbook = ({ checkbooks }) => {
+const Checkbook = ({ checkbooks, addCheckToCheckbook }) => {
   const numberToString = (num) => {
-    return num.toLocaleString('de-DE', { style: 'currency', currency: 'USD' });
+    return num.toLocaleString('en', { style: 'currency', currency: 'USD' });
   };
   const checkbookItems = checkbooks.map(checkbook =>
     (
@@ -14,7 +14,7 @@ const Checkbook = ({ checkbooks }) => {
           <div className="totalOutstanding"><h2>{numberToString(checkbook.totalOutstanding)}</h2></div>
         </div>
         <Checks checks={checkbook.checks} />
-        <AddCheck />
+        <AddCheck addCheckToCheckbook={addCheckToCheckbook} checkBookID={checkbook.checkbook_id} />
       </div>));
 
   return (
