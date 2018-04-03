@@ -1,0 +1,186 @@
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  align-items:
+}
+
+button{
+  margin: 0;
+}
+
+.navBarButton{
+  display: flex;
+  flex-direction: row;
+}
+
+.loginButton{
+  display: flex;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.open{
+  width: 100px;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  align-items: center;
+  background-color: #FF7043;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbooks{
+  padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
+  border: 4px dotted blue;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.checkbookinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%
+
+}
+
+.checkbook{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border: 4px dotted red;
+  width:100%;
+  text-align: center;
+
+}
+
+.addCheck{
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin: auto;
+  width: 300px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border:none;
+/*  border-radius: 5px;*/
+}
+
+.checkBookName{
+  display: flex;
+  border: 4px dotted yellow;
+}
+
+.checks{
+  display: flex;
+  flex-direction: column;
+  border: 4px dotted black;
+}
+
+.check{
+  flex-wrap: wrap;
+  height: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  border: 4px dotted orange;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.checkNumber{
+  display: flex;
+  width: 16.6%;
+}
+
+.amount{
+  display: flex;
+  width: 16.6%;
+}
+
+.to{
+  display: flex;
+  width: 16.6%;
+}
+
+.date{
+  display: flex;
+  width: 16.6%;
+}
+
+.creator{
+  display: flex;
+  width: 16.6%;
+}
+
+.clear{
+  display: flex;
+  width: 16.6%;
+  align-items: center;
+  justify-content: center
+}
+
+/*.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}*/
+
+.footer {
+  display: flex;
+  margin: auto auto 0 auto;
+  align-self: flex-end;;
+
+}
